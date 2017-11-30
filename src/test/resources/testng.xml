@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5" data-provider-thread-count="1">
+	<test name="Test1">
+		<parameter name="path" value="/"/>
+		<classes>
+		    <class name="comita.auto.selenium.tests.scripts.support.addSOS"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nfo_docs.ES_443_1"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nfo_docs.ES_443_2"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nfo_docs.FES_3484_03"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nfo_docs.FES_3484_04"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nfo_docs.FES_3484_08"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nfo_docs.FES_3484_010206"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nko_docs.FES_1FM"/>
+		    <!--class name="comita.auto.selenium.tests.scripts.create.nko_docs.FES_1FM_POSTRF"/-->
+		    <class name="comita.auto.selenium.tests.scripts.create.nko_docs.FES_2FM"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nko_docs.FES_3FM"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nko_docs.FES_4FM"/>
+		    <class name="comita.auto.selenium.tests.scripts.create.nko_docs.FES_DELFM"/>		    
+		</classes>
+	</test>  
+</suite>
